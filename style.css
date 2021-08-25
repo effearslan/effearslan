@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,400;1,800&display=swap');
+body{
+  background-color: #C1CAD6;
+  font-family: 'Raleway', sans-serif;
+  color: #71697A;
+}
+h1, h2{
+  color: #bb987c;
+  line-height: 15px;
+}
+a, i{
+  font-family: 'Raleway', 'sans-serif';
+  text-decoration: none;
+  color: #534069;
+  font-weight: 800;
+  font-size: 18px;
+}
+a:hover{
+  color: #F2F6D0;
+}
+.container{
+  display: block;
+  width: 40%;
+  margin: 20px auto;
+}
+.header-card{
+  background-color: #ddece1;
+  text-align: center;
+  padding: 8px;
+
+}
+.music-card{
+  margin: 10px 0px;
+  padding: 8px;
+  text-align: center;
+  background-color: #ddece1;
+}
+.profile-img{
+  border-radius: 50%;
+  width: 200px;
+  opacity: 0.9;
+}
+.social-media-card{
+  margin: 10px 0px;
+  padding: 8px;
+  background-color: #ddece1;
+  text-align: center;
+}
+ul{
+  list-style: none;
+  display: inline-block;
+}
+li {
+  display: inline-block;
+  padding-right: 30px;
+}
+.social-media-card h2 {
+  margin: 8px 0px;
+  padding: 0px;
+}
+.button-music{
+  background-color: rgb(142, 194, 214);
+  padding: 2px 24px;
+  text-align: center;
+}
